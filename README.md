@@ -4,3 +4,5 @@ utilizing our new found mathematical understanding of CNN's to compete with othe
 The reason why my group ultimately yieled the highest training accuracy(best: 98%), was due to my proposed greyscale conversion strategy. By eliminating the "color variances", so getting rid of all the irrelevant rgb data,
 significantly improved the neural networks capacity to solely identify the outlines of the images, and ultimately identify what image it is looking at. (Greyscale reduces these vector values from 0-255, to just being 0-1)
 
+This greyscale conversion, paired with the several convolution layers the image underwent, results in a faint outline of the image itself making it significantly easier for the network to learn from the training data. 
+
